@@ -5,7 +5,7 @@ Thanks to [Theo Browne's video](https://youtu.be/xIj13W0T7Ws) for helping me dis
 Ref: https://adventofcode.com/2022
 
 - [x] [Day 1](#day-1-calorie-counting) - NodeJS
-- [ ] [Day 2](#) -
+- [X] [Day 2](#day-2-rock-paper-scissors) - NodeJS
 - [ ] [Day 3](#) -
 - [ ] [Day 4](#) -
 - [ ] [Day 5](#) -
@@ -44,3 +44,17 @@ My Solution:
 
 - NodeJS
 - Array Reduce and Tuples
+
+---
+
+## Day 2: Rock Paper Scissors
+
+ref: https://adventofcode.com/2022/day/2
+
+Q1: Match the pattern against a score and add them up
+
+Q2: Just modify the hashmap a little bit
+
+My Solution:
+- NodeJS
+- Array Reduce and Hash Map
