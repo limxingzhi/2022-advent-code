@@ -6,7 +6,7 @@ Ref: https://adventofcode.com/2022
 
 - [x] [Day 1](#day-1-calorie-counting) - NodeJS
 - [X] [Day 2](#day-2-rock-paper-scissors) - NodeJS
-- [ ] [Day 3](#) -
+- [X] [Day 3](#day-3-rucksack-reorganization) - NodeJS
 - [ ] [Day 4](#) -
 - [ ] [Day 5](#) -
 - [ ] [Day 6](#) -
@@ -58,3 +58,17 @@ Q2: Just modify the hashmap a little bit
 My Solution:
 - NodeJS
 - Array Reduce and Hash Map
+
+---
+
+## Day 3: Rucksack Reorganization
+
+ref: https://adventofcode.com/2022/day/3
+
+Q1: Find the repeating char in each string, check it against its score and add all of the scores up.
+
+Q2: Find the repeating char in each 3 strings, check it against its score and add all of the scores up.
+
+My Solution:
+- NodeJS
+- Array Reduce, HashMap, Sets, Tuples
