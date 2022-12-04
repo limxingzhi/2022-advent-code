@@ -5,9 +5,9 @@ Thanks to [Theo Browne's video](https://youtu.be/xIj13W0T7Ws) for helping me dis
 Ref: https://adventofcode.com/2022
 
 - [x] [Day 1](#day-1-calorie-counting) - NodeJS
-- [X] [Day 2](#day-2-rock-paper-scissors) - NodeJS
-- [X] [Day 3](#day-3-rucksack-reorganization) - NodeJS
-- [ ] [Day 4](#) -
+- [x] [Day 2](#day-2-rock-paper-scissors) - NodeJS
+- [x] [Day 3](#day-3-rucksack-reorganization) - NodeJS
+- [x] [Day 4](#day-4-camp-cleanup) - NodeJS
 - [ ] [Day 5](#) -
 - [ ] [Day 6](#) -
 - [ ] [Day 7](#) -
@@ -72,3 +72,19 @@ Q2: Find the repeating char in each 3 strings, check it against its score and ad
 My Solution:
 - NodeJS
 - Array Reduce, HashMap, Sets, Tuples
+
+---
+
+## Day 4: Camp Cleanup
+
+ref: https://adventofcode.com/2022/day/4
+
+Q1: Count how many pairs of ranges have one range fully containing the other
+
+Q2: Count how many pairs of ranges overlap
+
+My Solution:
+- NodeJS
+- Array destructuring
+
+I spent way too much time before realizing I forgot to parse the strings into numbers. Should had used TypeScript...
