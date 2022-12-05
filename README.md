@@ -8,7 +8,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 2](#day-2-rock-paper-scissors) - NodeJS
 - [x] [Day 3](#day-3-rucksack-reorganization) - NodeJS
 - [x] [Day 4](#day-4-camp-cleanup) - NodeJS
-- [ ] [Day 5](#) -
+- [X] [Day 5](#day-5-supply-stacks) - Deno
 - [ ] [Day 6](#) -
 - [ ] [Day 7](#) -
 - [ ] [Day 8](#) -
@@ -56,6 +56,7 @@ Q1: Match the pattern against a score and add them up
 Q2: Just modify the hashmap a little bit
 
 My Solution:
+
 - NodeJS
 - Array Reduce and Hash Map
 
@@ -70,6 +71,7 @@ Q1: Find the repeating char in each string, check it against its score and add a
 Q2: Find the repeating char in each 3 strings, check it against its score and add all of the scores up.
 
 My Solution:
+
 - NodeJS
 - Array Reduce, HashMap, Sets, Tuples
 
@@ -84,7 +86,23 @@ Q1: Count how many pairs of ranges have one range fully containing the other
 Q2: Count how many pairs of ranges overlap
 
 My Solution:
+
 - NodeJS
 - Array destructuring
 
 I spent way too much time before realizing I forgot to parse the strings into numbers. Should had used TypeScript...
+
+---
+
+## Day 5: Supply Stacks
+
+ref: https://adventofcode.com/2022/day/5
+
+Q1: Rotated the stack for crates so they are a 2D array of stacks
+
+Q2: Introduced a temp array to collect the crates before moving. I could use `Array.prototype.slice` to achieve the same goal, but I had to work today and I am tired
+
+My Solution:
+
+- Due to yesterday's `parseInt`, I used TypeScript today and tried Deno for the first time. I liked it
+- I cheated a little bit by manually splitting the data into crates and movements. Also cheated a bit by manually cleaning the crates
