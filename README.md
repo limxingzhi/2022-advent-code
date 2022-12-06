@@ -8,8 +8,8 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 2](#day-2-rock-paper-scissors) - NodeJS
 - [x] [Day 3](#day-3-rucksack-reorganization) - NodeJS
 - [x] [Day 4](#day-4-camp-cleanup) - NodeJS
-- [X] [Day 5](#day-5-supply-stacks) - Deno
-- [ ] [Day 6](#) -
+- [x] [Day 5](#day-5-supply-stacks) - Deno
+- [x] [Day 6](#day-6-tuning-trouble) - Deno
 - [ ] [Day 7](#) -
 - [ ] [Day 8](#) -
 - [ ] [Day 9](#) -
@@ -106,3 +106,17 @@ My Solution:
 
 - Due to yesterday's `parseInt`, I used TypeScript today and tried Deno for the first time. I liked it
 - I cheated a little bit by manually splitting the data into crates and movements. Also cheated a bit by manually cleaning the crates
+
+---
+
+## Day 6: Tuning Trouble
+
+ref: https://adventofcode.com/2022/day/6
+
+Q1: Iterating an array and finding non repeating values
+
+Q2: Basically the same thing, just instead of 4, use 14
+
+My Solution:
+- I used `Set` to do the matching, because its to much work to write a manual one haha
+- Q2 and Q1 are basically the same question
