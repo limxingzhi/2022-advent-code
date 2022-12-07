@@ -10,7 +10,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 4](#day-4-camp-cleanup) - NodeJS
 - [x] [Day 5](#day-5-supply-stacks) - Deno
 - [x] [Day 6](#day-6-tuning-trouble) - Deno
-- [ ] [Day 7](#) -
+- [x] [Day 7](#day-7-no-space-left-on-device) - Deno
 - [ ] [Day 8](#) -
 - [ ] [Day 9](#) -
 - [ ] [Day 10](#) -
@@ -118,5 +118,18 @@ Q1: Iterating an array and finding non repeating values
 Q2: Basically the same thing, just instead of 4, use 14
 
 My Solution:
+
 - I used `Set` to do the matching, because its to much work to write a manual one haha
 - Q2 and Q1 are basically the same question
+
+---
+
+## Day 7: No Space Left On Device
+
+ref: https://adventofcode.com/2022/day/7
+
+My Solution:
+
+The problem looks like it requires tree tranversal on first glance, but not really. The movement through the directory is done procedurally, which means we can create a dynamic array of the path locations and pop/push to it according to the working directory. I create a hash table where the key = path, value = size. The reason for this will come later. After that, I wrote a simple toString function which converts the current directory to a string. And then I iterate through the dynamic array and add the size to each of the paths.
+
+Afterwards, both questions can be solved by iterating the hashmap's values.
