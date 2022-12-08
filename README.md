@@ -11,7 +11,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 5](#day-5-supply-stacks) - Deno
 - [x] [Day 6](#day-6-tuning-trouble) - Deno
 - [x] [Day 7](#day-7-no-space-left-on-device) - Deno
-- [ ] [Day 8](#) -
+- [x] [Day 8](#day-8-treetop-tree-house) - Deno
 - [ ] [Day 9](#) -
 - [ ] [Day 10](#) -
 - [ ] [Day 11](#) -
@@ -133,3 +133,15 @@ My Solution:
 The problem looks like it requires tree tranversal on first glance, but not really. The movement through the directory is done procedurally, which means we can create a dynamic array of the path locations and pop/push to it according to the working directory. I create a hash table where the key = path, value = size. The reason for this will come later. After that, I wrote a simple toString function which converts the current directory to a string. And then I iterate through the dynamic array and add the size to each of the paths.
 
 Afterwards, both questions can be solved by iterating the hashmap's values.
+
+---
+
+## Day 8: Treetop Tree House
+
+ref: https://adventofcode.com/2022/day/8
+
+My Solution:
+
+Break down the problem. Identify what you need to get and then abstract that problem away. Eventually, each problem will be abstract enough that simple iteration will suffice.
+
+At first, I tried to tackle everything within two reduces. That is when I kept running into problems. I tried to iterate while keeping score, and the code became a mess. The solution? Abstract the score keeping from the iteration, write simple code for both of them and the problem will simplify itself.
