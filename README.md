@@ -12,7 +12,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 6](#day-6-tuning-trouble) - Deno
 - [x] [Day 7](#day-7-no-space-left-on-device) - Deno
 - [x] [Day 8](#day-8-treetop-tree-house) - Deno
-- [ ] [Day 9](#) -
+- [x] [Day 9](#day-9-rope-bridge) - Deno
 - [ ] [Day 10](#) -
 - [ ] [Day 11](#) -
 - [ ] [Day 12](#) -
@@ -145,3 +145,15 @@ My Solution:
 Break down the problem. Identify what you need to get and then abstract that problem away. Eventually, each problem will be abstract enough that simple iteration will suffice.
 
 At first, I tried to tackle everything within two reduces. That is when I kept running into problems. I tried to iterate while keeping score, and the code became a mess. The solution? Abstract the score keeping from the iteration, write simple code for both of them and the problem will simplify itself.
+
+---
+
+## Day 9: Rope Bridge
+
+ref: https://adventofcode.com/2022/day/9
+
+My Solution:
+
+This is an interesting one. I understood the behavior wrong for Q1 but still managed to solve the question. The Q1 committed here is updated to have the correct behavior. I corrected the behavior before moving to Q2 so the solution can scale.
+
+Basically, just do what the question says, I did not do anything fancy in this puzzle. For Q2, I used an array instead of 2 positions. Yea, that's about it
