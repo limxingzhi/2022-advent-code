@@ -13,7 +13,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 7](#day-7-no-space-left-on-device) - Deno
 - [x] [Day 8](#day-8-treetop-tree-house) - Deno
 - [x] [Day 9](#day-9-rope-bridge) - Deno
-- [ ] [Day 10](#) -
+- [x] [Day 10](#day-10-cathode-ray-tube) - Deno
 - [ ] [Day 11](#) -
 - [ ] [Day 12](#) -
 - [ ] [Day 13](#) -
@@ -157,3 +157,19 @@ My Solution:
 This is an interesting one. I understood the behavior wrong for Q1 but still managed to solve the question. The Q1 committed here is updated to have the correct behavior. I corrected the behavior before moving to Q2 so the solution can scale.
 
 Basically, just do what the question says, I did not do anything fancy in this puzzle. For Q2, I used an array instead of 2 positions. Yea, that's about it
+
+---
+
+## Day 10: Cathode-Ray Tube
+
+ref: https://adventofcode.com/2022/day/10
+
+My Solution:
+
+Q1:
+
+Rather than running one loop for each cycle, I run a loop against the commands, and then looping the cycle count of each command. What this means is; instead of making my code follow the CPU cycle, I made my code follow the commands and iterate the cycle within each command. 
+
+Q2:
+
+The same logic as Q1 for iteration. I used a single line to draw the screen and then split that line into 6 rows afterwards.
