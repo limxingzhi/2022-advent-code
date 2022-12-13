@@ -14,7 +14,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 8](#day-8-treetop-tree-house) - Deno
 - [x] [Day 9](#day-9-rope-bridge) - Deno
 - [x] [Day 10](#day-10-cathode-ray-tube) - Deno
-- [ ] [Day 11](#) -
+- [x] [Day 11](#day-11-monkey-in-the-middle) - Deno
 - [ ] [Day 12](#) -
 - [ ] [Day 13](#) -
 - [ ] [Day 14](#) -
@@ -173,3 +173,22 @@ Rather than running one loop for each cycle, I run a loop against the commands, 
 Q2:
 
 The same logic as Q1 for iteration. I used a single line to draw the screen and then split that line into 6 rows afterwards.
+
+---
+
+## Day 11: Monkey in the Middle
+
+ref: https://adventofcode.com/2022/day/11
+
+My Solution:
+
+Q1 was pretty simple, you just do what they tell you to do and it works.
+
+Q2, well, _MATH_. You need to realized this
+
+```
+893234 mod 4 = 2
+893234 mod (4*5) mod 4 = 2
+```
+
+And so, if we take all of the test operands that involves mod and multiple them, we can just save the remainder since it gives the same value for the tests.
