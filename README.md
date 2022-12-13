@@ -15,7 +15,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 9](#day-9-rope-bridge) - Deno
 - [x] [Day 10](#day-10-cathode-ray-tube) - Deno
 - [x] [Day 11](#day-11-monkey-in-the-middle) - Deno
-- [ ] [Day 12](#) -
+- [x] [Day 12](#day-12-hill-climbing-algorithm) - Deno
 - [ ] [Day 13](#) -
 - [ ] [Day 14](#) -
 - [ ] [Day 15](#) -
@@ -168,7 +168,7 @@ My Solution:
 
 Q1:
 
-Rather than running one loop for each cycle, I run a loop against the commands, and then looping the cycle count of each command. What this means is; instead of making my code follow the CPU cycle, I made my code follow the commands and iterate the cycle within each command. 
+Rather than running one loop for each cycle, I run a loop against the commands, and then looping the cycle count of each command. What this means is; instead of making my code follow the CPU cycle, I made my code follow the commands and iterate the cycle within each command.
 
 Q2:
 
@@ -192,3 +192,17 @@ Q2, well, _MATH_. You need to realized this
 ```
 
 And so, if we take all of the test operands that involves mod and multiple them, we can just save the remainder since it gives the same value for the tests.
+
+---
+
+## Day 12: Hill Climbing Algorithm
+
+ref: https://adventofcode.com/2022/day/12
+
+My Solution:
+
+Q1: BFS
+
+Q2. I am 2 days behind, so I just brute forced all paths starting from all A points. Of course I can optimize it, but again. I am 2 days behind :)
+
+Is brute forcing an optimized solution? Of course not. Making it asynchronous barely saved half a second. Is it a good solution? Well, that depends on the business requirements now, doesn't it :)
