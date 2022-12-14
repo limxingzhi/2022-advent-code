@@ -16,7 +16,7 @@ Ref: https://adventofcode.com/2022
 - [x] [Day 10](#day-10-cathode-ray-tube) - Deno
 - [x] [Day 11](#day-11-monkey-in-the-middle) - Deno
 - [x] [Day 12](#day-12-hill-climbing-algorithm) - Deno
-- [ ] [Day 13](#) -
+- [x] [Day 13](#day-13-distress-signal) - Deno
 - [ ] [Day 14](#) -
 - [ ] [Day 15](#) -
 - [ ] [Day 16](#) -
@@ -206,3 +206,13 @@ Q1: BFS
 Q2. I am 2 days behind, so I just brute forced all paths starting from all A points. Of course I can optimize it, but again. I am 2 days behind :)
 
 Is brute forcing an optimized solution? Of course not. Making it asynchronous barely saved half a second. Is it a good solution? Well, that depends on the business requirements now, doesn't it :)
+
+---
+
+## Day 13: Distress Signal
+
+ref: https://adventofcode.com/2022/day/13
+
+My Solution:
+
+Nothing interesting, just good old TypeScript loops and recursions
