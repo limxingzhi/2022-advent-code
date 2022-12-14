@@ -68,9 +68,7 @@ function debugGrid(visited: Set<string>) {
   grid.map((row, x) => {
     const rowStr = row
       .map((cell, y) => {
-        return visited.has(positionToString([x, y]))
-          ? getPositionChar([x, y])
-          : " ";
+        return visited.has(positionToString([x, y])) ? cell : " ";
       })
       .join("");
     console.log(rowStr);

@@ -203,9 +203,7 @@ My Solution:
 
 Q1: BFS
 
-Q2. I am 2 days behind, so I just brute forced all paths starting from all A points. Of course I can optimize it, but again. I am 2 days behind :)
-
-Is brute forcing an optimized solution? Of course not. Making it asynchronous barely saved half a second. Is it a good solution? Well, that depends on the business requirements now, doesn't it :)
+Q2: Swap out the start position for `E` and the end position for `a`
 
 ---
 
